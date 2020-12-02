@@ -3,20 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Discover Edinburgh</title>
 </head>
 <body>
     <header>
         <h1>Discover Edinburgh</h1>
-        <nav>
+        <nav id="mainMenu">
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Blog</li>
-                <li>Contact</li>
+                <li><a href="/Home">Home</a></li>
+                <li><a href="/About">About</a></li>
+                <li><a href="/Blog">Blog</a></li>
+                <li><a href="/Contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    
+    <main>
+      <div id='banner'>
+          <img src="https://handluggageonly.co.uk/wp-content/uploads/2018/05/Hand-Luggage-Only-11-7.jpg" style="height:200px;">
+          <img src="https://cdn.thecrazytourist.com/wp-content/uploads/2018/08/ccimage-shutterstock_722096269.jpg" style="height:200px;">
+          <img src="https://pbs.twimg.com/media/EGGB157WoAEZnAT.jpg" style='height:200px;'>
+      </div>
+      <form>
+        <label for="search">Look for</label>
+        <input type="text" id="fname" name="fname">
+        <label for="cars">In:</label>
+        <select name="cars" id="cars">
+            <option>All</option>
+            <option>Restaurants</option>
+            <option>Museums</option>
+            <option>Attractions</option>
+            <option>Things to do</option>
+        </select>
+        <button type="button">Search</button>
+        </label>
+      </form>
+      <section>
+          <div>
+              <h2>
+                  Top spots
+              </h2><br>
+              <h4>
+                  Our handpicked set of spots to visit in the city.
+              </h4>
+          </div>
+          <section id='firstGallery'>
+              <img src="https://images.otstatic.com/prod/23974870/1/huge.jpg" style="height:200px">
+              <img src="https://images.otstatic.com/prod/23974870/1/huge.jpg" style="height:200px">
+              <img src="https://images.otstatic.com/prod/23974870/1/huge.jpg" style="height:200px">
+              <img src="https://images.otstatic.com/prod/23974870/1/huge.jpg" style="height:200px">
+          </section>
+            <div>
+                <h2>
+                Reader's favourites
+                </h2><br>
+                    <h4>
+                        Vox populi.
+                    </h4> 
+            </div>
+          <section id="SecondGallery">
+              <img src="https://lh3.googleusercontent.com/proxy/ZRhr1ETHanJ6VQEKyQxO96NU9bzsNqc8jdHWzibgEXO4c024UGoRABkMugKhIZIlPaWhCqtS6BOCwWygZH_woKdPzBhnGdwWxpTvVD2ea0FqqKooWbnHEK_GXEWqOEDC6Q2QGFxKAqSMF5RE8g" style="height:200px">
+              <img src="https://lh3.googleusercontent.com/proxy/ZRhr1ETHanJ6VQEKyQxO96NU9bzsNqc8jdHWzibgEXO4c024UGoRABkMugKhIZIlPaWhCqtS6BOCwWygZH_woKdPzBhnGdwWxpTvVD2ea0FqqKooWbnHEK_GXEWqOEDC6Q2QGFxKAqSMF5RE8g" style="height:200px">
+              <img src="https://lh3.googleusercontent.com/proxy/ZRhr1ETHanJ6VQEKyQxO96NU9bzsNqc8jdHWzibgEXO4c024UGoRABkMugKhIZIlPaWhCqtS6BOCwWygZH_woKdPzBhnGdwWxpTvVD2ea0FqqKooWbnHEK_GXEWqOEDC6Q2QGFxKAqSMF5RE8g" style="height:200px">
+              <img src="https://lh3.googleusercontent.com/proxy/ZRhr1ETHanJ6VQEKyQxO96NU9bzsNqc8jdHWzibgEXO4c024UGoRABkMugKhIZIlPaWhCqtS6BOCwWygZH_woKdPzBhnGdwWxpTvVD2ea0FqqKooWbnHEK_GXEWqOEDC6Q2QGFxKAqSMF5RE8g" style="height:200px">
+          </div>
+          <footer id='comments'>
+            <div>
+                <img src="">
+                <p>This website... just wow.</p>
+                <p>-CodeClan Instructor</p>
+            </div>
+            <div>
+              <img src="">
+              <p>quote 2</p>
+              <p>-Person</p>
+            </div>
+            <div>
+              <img src="">
+              <p>The authors have really good taste.</p>
+              <p>-Nicola Sturgeon</p>
+            </div>
+        </footer>
+      </section>
+    </main>
+    <footer>
+        <div>
+            <h2>Discover Edinburgh</h2>
+        </div>
+        <div>
+            <ul>
+                <li>Pricing</li>
+                <li>About</li>
+                <li>Contact us</li>
+                <li>Press</li>
+            </ul>
+        </div>
+        <div>
+            <p>
+                1 Galloway Road,<br>
+                Edinburgh, EH99<br>
+                555-5555-555<br>
+                contact@discoveredinburgh.scot<br>
+            </p>
+        </div>
+
+        
+
+    </footer>
 </body>
 </html>
